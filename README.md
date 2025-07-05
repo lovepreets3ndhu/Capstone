@@ -6,7 +6,7 @@ This project implements a bi-objective workflow scheduler that optimizes both Ma
 
 * A Directed Acyclic Graph (DAG) representing task dependencies.
 * Chaos Game Optimization (CGO) to evolve task priorities.
-* EST & Upward Rank-based priority calculation inspired by HEFT (from Paper 1, pg. 4–6).
+* EST & Upward Rank-based priority calculation inspired by NSGA-IIwithsemi-greedyinitialization
 * Heterogeneous Virtual Machines (VMs).
 
 The goal is to find Pareto-optimal task schedules across multiple generations.
